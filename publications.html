@@ -1,0 +1,44 @@
+---
+title: Publications
+layout: base
+---
+
+<div
+    class="w-full font-sans p-8 mt-6 mb-12 lg:mt-0 text-gray-900 leading-normal bg-white border border-gray-400 border-rounded">
+    <div id="publications">
+        <span class="border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">Publications</span>
+
+        <p class="mt-6">Marker labels: * = first author</p>
+
+        {% for pub in site.data.publications %}
+        <div class="mt-6 md:flex items-center space-x-5">
+            <img class="my-auto w-64 md:px-4" src="img/{{ pub.media }}">
+            <div class="font-sans mt-5 md:mt-0">
+                <p class="text-lg font-bold">{{ pub.title }}</p>
+                <p>{{ pub.authors }}</p>
+                <div class="flex items-center space-x-2">
+                    <p class="italic">{{ pub.venue }}</p>
+                    {% if pub.venue_desc %}
+                    <p>({{ pub.venue_desc }})</p>
+                    {% endif %}
+                </div>
+                <p class="text-base">{{ pub.desc }}</p>
+                <div class="flex items-center space-x-2 mt-2">
+                    {% if pub.paper %}
+                    <a class="px-2 py-0.5 text-sm text-blue-100 bg-blue-700 rounded-md hover:bg-blue-800"
+                        href="{{ pub.paper }}" target="_blank" rel="noopener noreferrer">Paper</a>
+                    {% endif %}
+                    {% if pub.code %}
+                    <a class="px-2 py-0.5 text-sm text-blue-100 bg-blue-700 rounded-md hover:bg-blue-800"
+                        href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">Code</a>
+                    {% endif %}
+                    {% if pub.demo %}
+                    <a class="px-2 py-0.5 text-sm text-blue-100 bg-blue-700 rounded-md hover:bg-blue-800"
+                        href="{{ pub.demo }}" target="_blank" rel="noopener noreferrer">Demo</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

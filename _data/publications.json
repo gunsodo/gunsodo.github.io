@@ -1,0 +1,25 @@
+[
+    {
+        "title": "RRWaveNet: A Compact End-to-End Multi-Scale Residual CNN for Robust PPG Respiratory Rate Estimation",
+        "authors": "P. Osathitporn*, G. Sawadwuthikul*, P. Thuwajit, K. Ueafuea, T. Mateepithaktham, N. Kunaseth, T. Choksatchawathi, P. Punyabukkana, E. Mignot, T. Wilaiprasitporn",
+        "venue": "arXiv",
+        "venue_desc": "preprint",
+        "media": "rrwavenet.png",
+        "paper": "https://arxiv.org/abs/2208.08672"
+    },
+    {
+        "title": "Visual Goal Human-Robot Communication Framework with Few-Shot Learning: a Case Study in Robot Waiter System",
+        "authors": "G. Sawadwuthikul*, T. Tothong, T. Lodkaew, P. Soisudarat, S. Nutanong, P. Manoonpong, N. Dilokthanakul",
+        "venue": "IEEE Transactions on Industrial Informatics",
+        "venue_desc": "acceptance rate < 20%, impact factor = 11.648",
+        "media": "viscom.png",
+        "paper": "https://ieeexplore.ieee.org/document/9316982",
+        "demo": "https://www.youtube.com/watch?v=KV9MDkzAEPc"
+    },
+    {
+        "title": "Hydrogen Gas Production from Durian Shell and Sheep Dung",
+        "authors": "A. Tungwongkitsiri, G. Sawadwuthikul, S. Yoadsanit, T. Saewun, T. Temiyasathit, S. Anantachaisilp",
+        "venue": "The 2019 Pure and Applied Chemistry International Conference (PACCON 2019)",
+        "media": "bioelectrix.png"
+    }
+]

@@ -1,727 +1,222 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+title: Guntitat S.
+layout: base
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>gun's Portfolio</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/6815ebeecf.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Raleway');
-
-        html {
-            font-family: 'Raleway', sans-serif;
-        }
-    </style>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-43EH7GLVYT"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-43EH7GLVYT');
-    </script>
-</head>
-
-<body class="bg-gray-100 tracking-wider tracking-normal">
-    <nav id="header" class="fixed w-full z-10 top-0 bg-white border-b border-gray-400">
-        <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-4">
-            <div class="pl-4 flex items-center">
-                <i class="fas fa-folder fa-lg pr-3 fill-current text-blue-700"></i>
-                <a class="text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl" href="#">
-                    Guntitat
+<div class="w-full lg:w-1/5 lg:px-6 text-xl text-gray-800 leading-normal">
+    <div class="w-full sticky inset-0 hidden h-64 lg:h-auto overflow-x-hidden overflow-y-auto lg:overflow-y-hidden lg:block mt-0 border border-gray-400 lg:border-transparent bg-white shadow lg:shadow-none lg:bg-transparent z-20"
+        style="top:5em;" id="menu-content">
+        <ul class="list-reset" id="top-menu">
+            <li class="py-2 md:my-0 hover:bg-blue-100 lg:hover:bg-transparent">
+                <a href="#"
+                    class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-700 border-l-4 border-transparent lg:border-blue-700 lg:hover:border-blue-700">
+                    <span class="pb-1 md:pb-0 text-sm text-gray-900 font-bold">About Me</span>
                 </a>
-            </div>
-            <div class="block lg:hidden pr-4">
-                <button id="nav-toggle"
-                    class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-blue-700 appearance-none focus:outline-none">
-                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <title>Menu</title>
-                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                    </svg>
-                </button>
-            </div>
-            <div class="w-full flex-grow lg:flex lg:content-end lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 z-20"
-                id="nav-content">
-                <div class="flex-1 w-full mx-auto content-end py-4 lg:py-0">
-                    <ul class="list-reset lg:flex justify-end items-center">
-                        <li class="mr-3 py-2 lg:py-0">
-                            <a class="inline-block text-gray-600 no-underline hover:text-blue-700 py-2 px-4"
-                                href="https://scholar.google.com/citations?user=40tZc8UAAAAJ&hl=en"><i
-                                    class="fas fa-graduation-cap mr-2"></i>Scholar</a>
-                        </li>
-                        <li class="mr-3 py-2 lg:py-0">
-                            <a class="inline-block text-gray-600 no-underline hover:text-blue-700 py-2 px-4"
-                                href="https://github.com/gunsodo"><i class="fab fa-github mr-2"></i>GitHub</a>
-                        </li>
-                        <li class="mr-3 py-2 lg:py-0">
-                            <a class="inline-block text-gray-600 no-underline hover:text-blue-700 py-2 px-4"
-                                href="https://www.linkedin.com/in/gunsodo"><i
-                                    class="fab fa-linkedin mr-2"></i>LinkedIn</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!--Container-->
-    <div class="container w-full flex flex-wrap mx-auto px-2 pt-8 lg:pt-16 mt-4 md:mt-16">
-        <div class="w-full lg:w-1/5 lg:px-6 text-xl text-gray-800 leading-normal">
-            <div class="w-full sticky inset-0 hidden h-64 lg:h-auto overflow-x-hidden overflow-y-auto lg:overflow-y-hidden lg:block mt-0 border border-gray-400 lg:border-transparent bg-white shadow lg:shadow-none lg:bg-transparent z-20"
-                style="top:5em;" id="menu-content">
-                <ul class="list-reset" id="top-menu">
-                    <li class="py-2 md:my-0 hover:bg-blue-100 lg:hover:bg-transparent">
-                        <a href="#"
-                            class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-700 border-l-4 border-transparent lg:border-blue-700 lg:hover:border-blue-700">
-                            <span class="pb-1 md:pb-0 text-sm text-gray-900 font-bold">About Me</span>
-                        </a>
-                    </li>
-                    <li class="py-2 md:my-0 hover:bg-blue-100 lg:hover:bg-transparent">
-                        <a href="#work"
-                            class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-700 border-l-4 border-transparent lg:hover:border-gray-400">
-                            <span class="pb-1 md:pb-0 text-sm">Work Experience</span>
-                        </a>
-                    </li>
-                    <li class="py-2 md:my-0 hover:bg-blue-100 lg:hover:bg-transparent">
-                        <a href="#education"
-                            class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-700 border-l-4 border-transparent lg:hover:border-gray-400">
-                            <span class="pb-1 md:pb-0 text-sm">Education</span>
-                        </a>
-                    </li>
-                    <li class="py-2 md:my-0 hover:bg-blue-100 lg:hover:bg-transparent">
-                        <a href="#research"
-                            class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-700 border-l-4 border-transparent lg:hover:border-gray-400">
-                            <span class="pb-1 md:pb-0 text-sm">Research</span>
-                        </a>
-                    </li>
-                    <li class="py-2 md:my-0 hover:bg-blue-100 lg:hover:bg-transparent">
-                        <a href="#projects"
-                            class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-700 border-l-4 border-transparent lg:hover:border-gray-400">
-                            <span class="pb-1 md:pb-0 text-sm">Projects</span>
-                        </a>
-                    </li>
-                    <li class="py-2 md:my-0 hover:bg-blue-100 lg:hover:bg-transparent">
-                        <a href="#publications"
-                            class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-700 border-l-4 border-transparent lg:hover:border-gray-400">
-                            <span class="pb-1 md:pb-0 text-sm">Publications</span>
-                        </a>
-                    </li>
-                    <li class="py-2 md:my-0 hover:bg-blue-100 lg:hover:bg-transparent">
-                        <a href="#awards"
-                            class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-700 border-l-4 border-transparent lg:hover:border-gray-400">
-                            <span class="pb-1 md:pb-0 text-sm">Academic Awards</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div
-            class="w-full font-sans lg:w-4/5 p-8 mt-6 lg:mt-0 text-gray-900 leading-normal bg-white border border-gray-400 border-rounded">
-            <!--Title-->
-            <div class="text-center mx-auto md:text-left md:flex font-sans space-x-5">
-                <img class="mx-auto my-auto w-48 h-48 md:w-40 md:h-40 rounded-full" src="img/profile.jpg">
-                <div class="my-3">
-                    <p class="text-2xl font-bold hover:text-blue-700">Guntitat Sawadwuthikul</p>
-                    <p class="text-xl font-medium mb-2">School of Computing, Korea Advanced Institute of Science and
-                        Technology (KAIST)</p>
-                    </p>
-                    <p class="text-base"> Interested in machine learning research and engineering websites and software.
-                        Experienced organizing events, science-related fields, and leadership for team building. Skilled
-                        in computer software, science, and music.</p>
-                </div>
-            </div>
-
-            <div class="my-5">
-                <p class="text-lg font-bold text-blue-700">News</p>
-                <ol class="ml-5 list-disc">
-                    <li>2022/01: 
-                        <a href="https://careers.scb.co.th/en/life-at-scb/detail/interview-scb-data-analytics/" class="text-blue-700 hover:underline" target="_blank"
-                            rel="noopener noreferrer">SCB Data Analytics Team</a>
-                        offered me a summer internship position.
-                    </li>
-                    <li>2021/12: Joined
-                        <a href="https://ibs.re.kr/ds/" class="text-blue-700 hover:underline" target="_blank"
-                            rel="noopener noreferrer">IBS Data Science Group</a>
-                        as an intern.
-                    </li>
-                    <li>2021/12: My paper has been officially published in the third issue of
-                        2022 IEEE Transactions on Industrial Informatics.
-                        <a href="https://ieeexplore.ieee.org/document/9316982" class="text-blue-700 hover:underline"
-                            target="_blank" rel="noopener noreferrer">(Link)</a>
-                    </li>
-                    <li>2021/11: My research work has appeared live on MCOT channel.
-                        <a href="https://youtu.be/aeoBwviz_hQ?t=91" class="text-blue-700 hover:underline"
-                            target="_blank" rel="noopener noreferrer">(Link)</a>
-                    </li>
-                    <li>2021/10: Our team, วัยรุ่นยุคใหม่ใส่ใจปัญญาประดิษฐ์, won the Creativity Prize from
-                        <a href="https://tmlcc.cseathai.org/" class="text-blue-700 hover:underline" target="_blank"
-                            rel="noopener noreferrer">TMLCC 2021</a>
-                        competition.
-                    </li>
-                    <li>2021/10: Received an offer to intern at
-                        <a href="https://www.arv.co.th/" class="text-blue-700 hover:underline" target="_blank"
-                            rel="noopener noreferrer">ARV (AI Robotics and Ventures)</a>
-                        under Rovula BU.
-                    </li>
-                </ol>
-            </div>
-
-            <div>
-                <hr class="py-4 mt-6 border-t border-grey-400">
-            </div>
-
-            <div id="work">
-                <span class="ml-2 border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">Work
-                    Experience</span>
-                <div class="mt-6 md:flex space-x-5">
-                    <img class="mx-auto my-auto w-32 md:px-4" src="img/arv.jpeg">
-                    <div class="font-sans mt-5 md:mt-0">
-                        <p class="text-lg font-bold">Robotics Engineer Intern</p>
-                        <a href="https://arv.co.th/" class="text-lg text-blue-700 font-medium hover:underline"
-                            target="_blank" rel="noopener noreferrer">AI and Robotic Ventures</a>
-                        <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                            <li class="mr-3">
-                                <i class="far fa-calendar mr-2"></i>January 2022 - February 2022
-                            </li>
-                            <li class="mr-3">
-                                <i class="far fa-map mr-2"></i>Bangkok, Thailand
-                            </li>
-                        </ul>
-                        <p class="text-base">Integrate sensors and embedded devices to create an end-to-end
-                            hydrographic surveyor to be installed with the unmanned subsea vehicle. </p>
-                        <!-- <p class="text-base mt-2"></p> -->
-                    </div>
-                </div>
-
-                <div class="mt-6 md:flex space-x-5">
-                    <img class="mx-auto my-auto w-32 md:px-4" src="img/ibs.png">
-                    <div class="font-sans mt-5 md:mt-0">
-                        <p class="text-lg font-bold">Research Intern</p>
-                        <a href="https://ibs.re.kr/ds/" class="text-lg text-blue-700 font-medium hover:underline"
-                            target="_blank" rel="noopener noreferrer">IBS Data Science Group</a>
-                        <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                            <li class="mr-3">
-                                <i class="far fa-calendar mr-2"></i>January 2022 - Ongoing
-                            </li>
-                            <li class="mr-3">
-                                <i class="far fa-map mr-2"></i>Bangkok, Thailand
-                            </li>
-                        </ul>
-                        <p class="text-base">Climate downscaling with single-image superresolution technique 
-                            to predict geospatial information. </p>
-                    </div>
-                </div>
-
-                <div class="mt-6 md:flex space-x-5">
-                    <img class="mx-auto my-auto w-32 md:px-4" src="img/true.jpeg">
-                    <div class="font-sans mt-5 md:mt-0">
-                        <p class="text-lg font-bold">Backend Developer Intern</p>
-                        <a href="https://www.truedigital.com/" class="text-lg text-blue-700 font-medium hover:underline"
-                            target="_blank" rel="noopener noreferrer">True Digital Group</a>
-                        <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                            <li class="mr-3">
-                                <i class="far fa-calendar mr-2"></i>June 2021 - August 2021
-                            </li>
-                            <li class="mr-3">
-                                <i class="far fa-map mr-2"></i>Work from Home
-                            </li>
-                        </ul>
-                        <p class="text-base">Qualify through True Academy Program as a backend developer
-                            at True Digital Group. Implement PoCs that increase the efficiency of API calls
-                            for content management of TrueID application. </p>
-                        <p class="text-base mt-2">Together with the assigned group of interns, ideate creative business
-                            model
-                            for True Corporation.</p>
-                    </div>
-                </div>
-
-                <div class="mt-6 md:flex space-x-5">
-                    <img class="mx-auto my-auto w-32 md:px-4" src="img/vistec.png">
-                    <div class="font-sans mt-5 md:mt-0">
-                        <p class="text-lg font-bold">Research Internship</p>
-                        <a href="https://brain.vistec.ac.th/" class="text-lg text-blue-700 font-medium hover:underline"
-                            target="_blank" rel="noopener noreferrer">BRAIN Lab, Vidyasirimedhi Institute of
-                            Science and Technology (VISTEC)</a>
-                        <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                            <li class="mr-3">
-                                <i class="far fa-calendar mr-2"></i>April 2019 - February 2021
-                            </li>
-                            <li class="mr-3">
-                                <i class="far fa-map mr-2"></i>Rayong, Thailand
-                            </li>
-                        </ul>
-                        <p class="text-base">Research in the field of machine learning, human-computer interaction,
-                            reinforcement learning, and robotics at School of Information Science and Technology (IST),
-                            VISTEC. More details are provided in the Research section.</p>
-                    </div>
-                </div>
-
-                <div class="mt-6 md:flex space-x-5">
-                    <img class="mx-auto my-auto w-32 px-4 md:px-8" src="img/twr.png">
-                    <div class="font-sans mt-5 md:mt-0">
-                        <p class="text-lg font-bold">Director of Activity</p>
-                        <a href="https://thewhiteroomcharity.org/twr/"
-                            class="text-lg text-blue-700 font-medium hover:underline" target="_blank"
-                            rel="noopener noreferrer">The White Room Enterprise</a>
-                        <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                            <li class="mr-3">
-                                <i class="far fa-calendar mr-2"></i>August 2016 – Ongoing
-                            </li>
-                            <li class="mr-3">
-                                <i class="far fa-map mr-2"></i>Bangkok, Thailand
-                            </li>
-                        </ul>
-                        <p class="text-base">Work as a part of a social enterprise, organizing science camps,
-                            educational
-                            workshops and lectures. Both for charity work and profiting purposes.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <hr class="py-4 mt-6 border-t border-grey-400">
-            </div>
-
-            <div id="education">
-                <span class="ml-2 border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">Education</span>
-
-                <div class="mt-6 md:flex space-x-5">
-                    <img class="mx-auto my-auto w-32 md:px-4 md:mx-0" src="img/kaist.png">
-                    <div class="font-sans mt-5 md:mt-0">
-                        <p class="text-lg font-bold">B.Sc. in Computer Science and Electrical Engineering</p>
-                        <p class="text-lg font-medium text-blue-700">Korea Advanced Institute of Science
-                            and Technology (KAIST)</p>
-                        <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                            <li class="mr-3">
-                                <i class="far fa-calendar mr-2"></i>August 2019 – Ongoing
-                            </li>
-                            <li class="mr-3">
-                                <i class="far fa-map mr-2"></i>Daejeon, South Korea
-                            </li>
-                        </ul>
-                        <p class="text-base">Majoring in Computer Science, and considering Electrical Engineering as a
-                            double major. Expected to graduate in June 2023.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="mt-6 md:flex space-x-5">
-                    <img class="mx-auto my-auto w-32 md:px-4 md:mx-0" src="img/kvis.png">
-                    <div class="font-sans mt-5 md:mt-0">
-                        <p class="text-lg font-bold">High School Diploma</p>
-                        <p class="text-lg font-medium text-blue-700">Kamnoetvidya Science Academy (KVIS)</p>
-                        <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                            <li class="mr-3">
-                                <i class="far fa-calendar mr-2"></i>May 2016 – February 2019
-                            </li>
-                            <li class="mr-3">
-                                <i class="far fa-map mr-2"></i>Rayong, Thailand
-                            </li>
-                        </ul>
-                        <ol class="ml-5 list-disc">
-                            <li>Elected as a valedictorian of the cohort</li>
-                            <li>Perfect cumulative GPA across all semesters (4.00/4.00)</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <hr class="py-4 mt-6 border-t border-grey-400">
-            </div>
-
-            <div id="research">
-                <span class="ml-2 border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">Research</span>
-
-                <img class="mx-auto my-5 md:px-4 md:mx-0" src="img/viscom.png">
-                <div class="ml-4 mt-6 md:flex space-x-5">
-                    <div class="font-sans mt-5 md:mt-0">
-                        <p class="text-lg font-bold">Communication Framework for Waiter Robots Using Active Learning</p>
-                        <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                            <li class="mr-3">
-                                <i class="far fa-calendar mr-2"></i>April 2018 - November 2020
-                            </li>
-                            <li class="mr-3">
-                                <i class="far fa-map mr-2"></i>School of IST, VISTEC, Rayong, Thailand
-                            </li>
-                        </ul>
-                        <p class="text-base">Proposed a communication framework between human and waiter robot that
-                            helps the robot navigate to the customer in dynamic setting using various techniques in
-                            machine learning, which aims to reduce the number of interactions between the human and
-                            the robot to its possible minimum.
-                            <a class="hover:underline text-blue-700"
-                                href="https://ieeexplore.ieee.org/document/9316982/media#media">
-                                Click here to see the demo.</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="ml-4 mt-6 md:flex space-x-5">
-                    <!-- <img class="mx-auto my-auto w-32 md:px-4 md:mx-0" src="https://via.placeholder.com/150"> -->
-                    <div class="font-sans mt-5 md:mt-0">
-                        <p class="text-lg font-bold">Hydrogen Gas Production from Durian Shell and Sheep Dung</p>
-                        <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                            <li class="mr-3">
-                                <i class="far fa-calendar mr-2"></i>May 2017 – May 2018
-                            </li>
-                            <li class="mr-3">
-                                <i class="far fa-map mr-2"></i>KVIS, Rayong, Thailand
-                            </li>
-                        </ul>
-                        <p class="text-base">As a graduation project at my high school, the study focuses on producing
-                            energy, hydrogen gas, using the durian shell and sheep dung that would ultimately utilize
-                            organic leftovers.
-                        </p>
-                        <ol class="ml-5 list-disc">
-                            <li>Won a Special Diploma from XXVIII Sakharov Readings, Lyceum “Physical-Technical School”,
-                                Saint Petersburg, Russia
-                            </li>
-                            <li>Won a second runner-up prize from 2nd KVIS Invitational Science Fair (KVIS-ISF),
-                                Rayong, Thailand</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <hr class="py-4 mt-6 border-t border-grey-400">
-            </div>
-
-            <div id="projects">
-                <span class="ml-2 border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">Projects</span>
-
-                <div class="grid grid-cols-2 gap-4 mt-6">
-                    <div class="flex flex-col text-center col-span-2 sm:col-span-1">
-                        <img class="object-contain" src="img/class-partition-ga/result.png">
-                        <p class="text-lg font-bold">Class Partition GA</p>
-                        <p>Class partitioning tool using genetic algorithm</p>
-                    </div>
-                    <div class="flex flex-col text-center col-span-2 sm:col-span-1">
-                        <img class="object-contain" src="img/mhpms/dashboard.png">
-                        <p class="text-lg font-bold">MHPMS</p>
-                        <p>Construction project management system</p>
-                    </div>
-                    <div class="flex flex-col text-center col-span-2 sm:col-span-1">
-                        <img class="object-contain" src="img/pasin-cssdcat/edit-set.png">
-                        <p class="text-lg font-bold">MedicalCatalog</p>
-                        <p>Medical tools and sets viewer for hospitals</p>
-                    </div>
-                    <div class="flex flex-col text-center col-span-2 sm:col-span-1">
-                        <img class="object-contain" src="img/sew-you-later/new-orders.png">
-                        <p class="text-lg font-bold">Sew You Later!</p>
-                        <p>Communication platform between the tailor and customer</p>
-                    </div>
-                    <div class="flex flex-col text-center col-span-2 sm:col-span-1">
-                        <img class="object-contain" src="img/yuwapat-report/login.png">
-                        <p class="text-lg font-bold">yesreport</p>
-                        <p>Student progress report system for a private school</p>
-                    </div>
-                </div>
-
-                <!-- <div class="mt-6 md:flex space-x-5">
-                    <img class="mx-auto my-auto w-32 md:px-4" src="img/yes.jpg">
-                    <div class="font-sans mt-5 md:mt-0">
-                        <p class="text-lg font-bold">Yuwapat Report</p>
-                        <a href="https://www.yuwapatschool.ac.th/"
-                            class="text-lg text-blue-700 font-medium hover:underline" target="_blank"
-                            rel="noopener noreferrer">Yuwapat Early-Childhood School</a>
-                        <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                            <li class="mr-3">
-                                <i class="far fa-calendar mr-2"></i>2020
-                            </li>
-                        </ul>
-                        <p class="text-base">Develop a website (full-stack) that manages students’ progress report
-                            for Yuwapat Early-Childhood School. The platform is designed to be used as a communication
-                            medium between teachers, directors, and parents.</p>
-                        <div id="links" class="mt-2 space-x-8">
-                            <a target="_blank" rel="noopener noreferrer" class="hover:text-blue-700"
-                                href="https://sew-you-later.web.app/new-orders"><i
-                                    class="fas fa-external-link-alt mr-2"></i>View
-                                the Prototype</a>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-
-            <div>
-                <hr class="py-4 mt-6 border-t border-grey-400">
-            </div>
-
-            <div id="publications">
-                <span
-                    class="ml-2 border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">Publications</span>
-                <div class="ml-4 mt-6 space-x-5">
-                    <div class="font-sans mt-5 md:mt-0">
-                        <p><strong>G. Sawadwuthikul</strong>, T. Tothong, T. Lodkaew, P. Soisudarat, S. Nutanong, P.
-                            Manoonpong and N. Dilokthanakul, <a class="hover:underline" target="_blank"
-                                href="https://ieeexplore.ieee.org/document/9316982"><strong>Visual Goal Human-Robot
-                                    Communication Framework
-                                    with
-                                    Few-Shot Learning: a Case Study in Robot Waiter System</strong></a>, in <em>IEEE
-                                Transactions on
-                                Industrial
-                                Informatics</em>,
-                            vol. 18, no. 3, pp. 1883-1891, March 2022,
-                            doi: 10.1109/TII.2021.3049831.</p>
-                    </div>
-                </div>
-
-                <div class="ml-4 mt-6 space-x-5">
-                    <div class="font-sans mt-5 md:mt-0">
-                        <p>Abhichaya Tungwongkitsiri, <strong>Guntitat Sawadwuthikul</strong>, Seksan Yoadsanit, Tawan
-                            Saewun,
-                            Theerach Temiyasathit, Suranan Anantachaisilp, <strong>Hydrogen Gas Production from
-                                Durian Shell and Sheep Dung</strong>, in <em>The 2019 Pure and Applied Chemistry
-                                International Conference (PACCON 2019)</em>.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <hr class="py-4 mt-6 border-t border-grey-400">
-            </div>
-
-            <div id="awards">
-                <span class="ml-2 border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">Academic
-                    Awards</span>
-                <div class="ml-4 mt-6">
-                    <p class="text-lg font-bold">Creativity Prize - TMLCC</p>
-                    <p class="text-lg font-medium text-blue-700">Thailand Machine Learning for Chemistry Competition</p>
-                    <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                        <li class="mr-3">
-                            <i class="far fa-calendar mr-2"></i>2021
-                        </li>
-                        <li class="mr-3">
-                            <i class="far fa-map mr-2"></i>Online
-                        </li>
-                    </ul>
-                    <p class="text-base">
-                        (Team วัยรุ่นยุคใหม่ใส่ใจปัญญาประดิษฐ์) Creativity Prize (out of 76 teams) under to problem
-                        "Prediction of Metal Organic Frameworks' (MOFs) Working Capacity for Carbon Dioxide Absorption
-                        Using Machine Learning"
-                        from proposing various MOF representations and building a one-step mini-ML flow to test the
-                        performance across variations
-                    </p>
-                    <div id="links" class="mt-2 space-x-8">
-                        <a target="_blank" rel="noopener noreferrer" class="hover:text-blue-700"
-                            href="https://devpost.com/software/project-6mw3fgs9j7uo"><i
-                                class="fas fa-external-link-alt mr-2"></i>Project Page (Thai)</a>
-                        <a target="_blank" rel="noopener noreferrer" class="hover:text-blue-700"
-                            href="https://github.com/gunsodo/tmlcc2021"><i class="fab fa-github mr-2"></i>GitHub</a>
-                    </div>
-                </div>
-
-                <div class="ml-4 mt-6">
-                    <p class="text-lg font-bold">Most Human-Centered Award</p>
-                    <p class="text-lg font-medium text-blue-700">CS374 Design Project (Fall)</p>
-                    <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                        <li class="mr-3">
-                            <i class="far fa-calendar mr-2"></i>2021
-                        </li>
-                        <li class="mr-3">
-                            <i class="far fa-map mr-2"></i>South Korea
-                        </li>
-                    </ul>
-                    <p class="text-base">(Team Sew You Later!) Best interactive website out of 24 teams in
-                        human-centered perspective from CS374 Introduction to Human-Computer Interaction, KAIST
-                    </p>
-                    <div id="links" class="mt-2 space-x-8">
-                        <a target="_blank" rel="noopener noreferrer" class="hover:text-blue-700"
-                            href="https://sew-you-later.web.app/new-orders"><i
-                                class="fas fa-external-link-alt mr-2"></i>View
-                            the Prototype</a>
-                        <a target="_blank" rel="noopener noreferrer" class="hover:text-blue-700"
-                            href="https://github.com/fesiib/sew-you-later"><i class="fab fa-github mr-2"></i>GitHub</a>
-                        <a target="_blank" rel="noopener noreferrer" class="hover:text-blue-700"
-                            href="https://hci.kixlab.org/gallery.html"><i
-                                class="fas fa-graduation-cap mr-2"></i>Course's Gallery</a>
-                    </div>
-                </div>
-
-                <div class="ml-4 mt-6">
-                    <p class="text-lg font-bold">Champion Team Award - ARML 2018</p>
-                    <p class="text-lg font-medium text-blue-700">American Regions Mathematics League Local Thailand</p>
-                    <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                        <li class="mr-3">
-                            <i class="far fa-calendar mr-2"></i>2018
-                        </li>
-                        <li class="mr-3">
-                            <i class="far fa-map mr-2"></i>Thailand
-                        </li>
-                    </ul>
-                    <p class="text-base">First place in Thailand, sixth place in Asia, and twentieth place in the world
-                    </p>
-                </div>
-
-                <div class="ml-4 mt-6">
-                    <p class="text-lg font-bold">Honorable Mention - International
-                        Mathematical Modeling Challenge</p>
-                    <p class="text-lg font-medium text-blue-700">Consortium for Mathematics and its Applications (COMAP)
-                    </p>
-                    <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                        <li class="mr-3">
-                            <i class="far fa-calendar mr-2"></i>2018
-                        </li>
-                        <li class="mr-3">
-                            <i class="far fa-map mr-2"></i>Online
-                        </li>
-                    </ul>
-                    <p class="text-base">Representative team of Thailand to compete in IMMC 2018
-                    </p>
-                </div>
-
-                <div class="ml-4 mt-6">
-                    <p class="text-lg font-bold">Finalists - International Young
-                        Physicists’ Tournament</p>
-                    <p class="text-lg font-medium text-blue-700">The Institute for the Promotion of Teaching Science and
-                        Technology (IPST)</p>
-                    <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                        <li class="mr-3">
-                            <i class="far fa-calendar mr-2"></i>2018
-                        </li>
-                        <li class="mr-3">
-                            <i class="far fa-map mr-2"></i>Thailand
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="ml-4 mt-6">
-                    <p class="text-lg font-bold">Participant - Thailand Mathematical Olympiad</p>
-                    <p class="text-lg font-medium text-blue-700">The Promotion of Academic Olympiad and Development of
-                        Science Education Foundation under the patronage of Her Royal Highness Princess Galyani Vadhana
-                        Krom Luang Naradhiwas Rajanagarindra (POSN)</p>
-                    <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                        <li class="mr-3">
-                            <i class="far fa-calendar mr-2"></i>2018
-                        </li>
-                        <li class="mr-3">
-                            <i class="far fa-map mr-2"></i>Thailand
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <div class="w-full lg:w-4/5 lg:ml-auto text-base md:text-sm text-gray-500 px-4 py-6">
-            <p></p>
+            </li>
+            <li class="py-2 md:my-0 hover:bg-blue-100 lg:hover:bg-transparent">
+                <a href="#work"
+                    class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-700 border-l-4 border-transparent lg:hover:border-gray-400">
+                    <span class="pb-1 md:pb-0 text-sm">Work Experience</span>
+                </a>
+            </li>
+            <li class="py-2 md:my-0 hover:bg-blue-100 lg:hover:bg-transparent">
+                <a href="#education"
+                    class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-700 border-l-4 border-transparent lg:hover:border-gray-400">
+                    <span class="pb-1 md:pb-0 text-sm">Education</span>
+                </a>
+            </li>
+            <li class="py-2 md:my-0 hover:bg-blue-100 lg:hover:bg-transparent">
+                <a href="#awards"
+                    class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-700 border-l-4 border-transparent lg:hover:border-gray-400">
+                    <span class="pb-1 md:pb-0 text-sm">Awards</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div
+    class="w-full font-sans lg:w-4/5 p-8 mt-6 lg:mt-0 text-gray-900 leading-normal bg-white border border-gray-400 border-rounded">
+    <!--Title-->
+    <div class="text-center mx-auto md:text-left md:flex font-sans space-x-5">
+        <img class="mx-auto my-auto w-48 h-48 md:w-40 md:h-40 rounded-full" src="img/profile.jpg">
+        <div class="my-3">
+            <p class="text-2xl font-bold hover:text-blue-700">Guntitat Sawadwuthikul</p>
+            <p class="text-xl font-medium mb-2">School of Computing, Korea Advanced Institute of Science and
+                Technology (KAIST)</p>
+            </p>
+            <p class="text-base">Computer science student from Korea Advanced Institute of Science and Technology. 
+                Interested in machine learning research and web development. During free time, I mostly play the guitar
+                and watch DOTA2 streams.</p>
         </div>
     </div>
-    <script>
-        /*Toggle dropdown list*/
-        /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
 
-        var navMenuDiv = document.getElementById("nav-content");
-        var navMenu = document.getElementById("nav-toggle");
+    <div class="my-5">
+        <p class="text-lg font-bold text-blue-700">News</p>
+        <ol class="ml-5 list-disc">
+            <li>2022/03: Joined
+                <a href="https://careers.scb.co.th/en/life-at-scb/detail/interview-scb-data-analytics/"
+                    class="text-blue-700 hover:underline" target="_blank" rel="noopener noreferrer">Interfaces</a>
+                lab as a research assistant under supervision of Prof. <a
+                    href="https://scholar.google.com/citations?user=U-L-iGIAAAAJ" class="text-blue-700 hover:underline"
+                    target="_blank" rel="noopener noreferrer">Theerawit Wilaiprasitporn</a>.
+            </li>
+            <li>2022/01:
+                <a href="https://careers.scb.co.th/en/life-at-scb/detail/interview-scb-data-analytics/"
+                    class="text-blue-700 hover:underline" target="_blank" rel="noopener noreferrer">SCB Data Analytics
+                    Team</a>
+                offered me a summer internship position.
+            </li>
+            <li>2021/12: Joined
+                <a href="https://ibs.re.kr/ds/" class="text-blue-700 hover:underline" target="_blank"
+                    rel="noopener noreferrer">IBS Data Science Group</a>
+                as an intern under supervision of Prof.
+                <a href="https://ds.ibs.re.kr/ci/" class="text-blue-700 hover:underline" target="_blank"
+                    rel="noopener noreferrer">Meeyoung Cha</a>.
+            </li>
+            <li>2021/12: My paper has been officially published in the third issue of
+                2022 IEEE Transactions on Industrial Informatics.
+                <a href="https://ieeexplore.ieee.org/document/9316982" class="text-blue-700 hover:underline"
+                    target="_blank" rel="noopener noreferrer">(Link)</a>
+            </li>
+            <li>2021/11: My research work has appeared live on MCOT channel.
+                <a href="https://youtu.be/aeoBwviz_hQ?t=91" class="text-blue-700 hover:underline" target="_blank"
+                    rel="noopener noreferrer">(Link)</a>
+            </li>
+        </ol>
+    </div>
 
-        var helpMenuDiv = document.getElementById("menu-content");
-        var helpMenu = document.getElementById("menu-toggle");
+    <div>
+        <hr class="py-4 mt-6 border-t border-grey-400">
+    </div>
 
-        document.onclick = check;
+    <div id="work">
+        <span class="ml-2 border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">Work
+            Experience</span>
+        
+        {% for work in site.data.works %}
+        <div class="mt-6 md:flex space-x-5">
+            <img class="mx-auto my-auto w-32 md:px-4" src="img/{{ work.media }}">
+            <div class="font-sans mt-5 md:mt-0">
+                <p class="text-lg font-bold">{{ work.title }}</p>
+                <a href="{{ work.company_link }}" class="text-lg text-blue-700 font-medium hover:underline" target="_blank"
+                    rel="noopener noreferrer">{{ work.company }}</a>
+                <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
+                    <li class="mr-3">
+                        <i class="far fa-calendar mr-2"></i>{{ work.start_date }} - {{ work.end_date }}
+                    </li>
+                    <li class="mr-3">
+                        <i class="far fa-map mr-2"></i>{{ work.location }}
+                    </li>
+                </ul>
+                <p class="text-base">{{ work.desc }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 
-        function check(e) {
-            var target = (e && e.target) || (event && event.srcElement);
+    <div>
+        <hr class="py-4 mt-6 border-t border-grey-400">
+    </div>
 
+    <div id="education">
+        <span class="ml-2 border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">Education</span>
 
-            //Nav Menu
-            if (!checkParent(target, navMenuDiv)) {
-                // click NOT on the menu
-                if (checkParent(target, navMenu)) {
-                    // click on the link
-                    if (navMenuDiv.classList.contains("hidden")) {
-                        navMenuDiv.classList.remove("hidden");
-                    } else { navMenuDiv.classList.add("hidden"); }
-                } else {
-                    // click both outside link and outside menu, hide menu
-                    navMenuDiv.classList.add("hidden");
-                }
-            }
+        <div class="mt-6 md:flex space-x-5">
+            <img class="mx-auto my-auto w-32 md:px-4 md:mx-0" src="img/kaist.png">
+            <div class="font-sans mt-5 md:mt-0">
+                <p class="text-lg font-bold">B.Sc. in Computer Science and Electrical Engineering</p>
+                <p class="text-lg font-medium text-blue-700">Korea Advanced Institute of Science
+                    and Technology (KAIST)</p>
+                <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
+                    <li class="mr-3">
+                        <i class="far fa-calendar mr-2"></i>August 2019 - Ongoing
+                    </li>
+                    <li class="mr-3">
+                        <i class="far fa-map mr-2"></i>Daejeon, South Korea
+                    </li>
+                </ul>
+                <p class="text-base">Majoring in Computer Science, and considering Electrical Engineering as a
+                    double major. Expected to graduate in June 2023.
+                </p>
+            </div>
+        </div>
 
-            //Help Menu
-            if (!checkParent(target, helpMenuDiv)) {
-                // click NOT on the menu
-                if (checkParent(target, helpMenu)) {
-                    // click on the link
-                    if (helpMenuDiv.classList.contains("hidden")) {
-                        helpMenuDiv.classList.remove("hidden");
-                    } else { helpMenuDiv.classList.add("hidden"); }
-                } else {
-                    // click both outside link and outside menu, hide menu
-                    helpMenuDiv.classList.add("hidden");
-                }
-            }
+        <div class="mt-6 md:flex space-x-5">
+            <img class="mx-auto my-auto w-32 md:px-4 md:mx-0" src="img/kvis.png">
+            <div class="font-sans mt-5 md:mt-0">
+                <p class="text-lg font-bold">High School Diploma</p>
+                <p class="text-lg font-medium text-blue-700">Kamnoetvidya Science Academy (KVIS)</p>
+                <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
+                    <li class="mr-3">
+                        <i class="far fa-calendar mr-2"></i>May 2016 - February 2019
+                    </li>
+                    <li class="mr-3">
+                        <i class="far fa-map mr-2"></i>Rayong, Thailand
+                    </li>
+                </ul>
+                <ol class="ml-5 list-disc">
+                    <li>Elected as a valedictorian of the cohort</li>
+                    <li>Perfect cumulative GPA across all semesters (4.00/4.00)</li>
+                </ol>
+            </div>
+        </div>
+    </div>
 
-        }
+    <div>
+        <hr class="py-4 mt-6 border-t border-grey-400">
+    </div>
 
-        function checkParent(t, elm) {
-            while (t.parentNode) {
-                if (t == elm) { return true; }
-                t = t.parentNode;
-            }
-            return false;
-        }
+    <div id="awards">
+        <span class="ml-2 border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">
+            Awards</span>
+        
+        <ol class="mt-6 ml-5 list-disc">
+            {% for award in site.data.awards %}
+                <li>({{ award.year }}) {{ award.title }}</li>
+            {% endfor %}
+        </ol>
+    </div>
+    <!-- <div id="awards">
+        <span class="ml-2 border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">
+            Awards</span>
 
-        // Cache selectors
-        var lastId,
-            topMenu = $("#top-menu"),
-            navBar = $("#header"),
-            topMenuHeight = navBar.outerHeight() + 30,
-            // All list items
-            menuItems = topMenu.find("a"),
-            // Anchors corresponding to menu items
-            scrollItems = menuItems.map(function () {
-                var item = $($(this).attr("href"));
-                if (item.length) { return item; }
-            });
+        {% for award in site.data.awards %}
+        <div class="ml-4 mt-6">
+            <p class="text-lg font-bold">{{ award.title }}</p>
+            <p class="text-lg font-medium text-blue-700">{{ award.subtitle }}</p>
+            <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
+                <li class="mr-3">
+                    <i class="far fa-calendar mr-2"></i>{{ award.year }}
+                </li>
+                <li class="mr-3">
+                    <i class="far fa-map mr-2"></i>{{ award.location }}
+                </li>
+            </ul>
+            <p class="text-base">
+                {{ award.desc }}
+            </p>
+            {% if award.link or award.gh_link %}
+            <div id="links" class="mt-2 space-x-8">
+                {% if award.link %}
+                <a target="_blank" rel="noopener noreferrer" class="hover:text-blue-700" href="{{ award.link }}"><i
+                        class="fas fa-external-link-alt mr-2"></i>{{ award.link_title }}</a>
+                {% endif %}
 
-        // Bind click handler to menu items
-        // so we can get a fancy scroll animation
-        menuItems.click(function (e) {
-            var href = $(this).attr("href"),
-                offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
-            $('html, body').stop().animate({
-                scrollTop: offsetTop
-            }, 300);
-            e.preventDefault();
-        });
+                {% if award.gh_link %}
+                <a target="_blank" rel="noopener noreferrer" class="hover:text-blue-700" href="{{ award.gh_link }}"><i
+                        class="fab fa-github mr-2"></i>GitHub</a>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div> -->
 
-        // Bind to scroll
-        $(window).scroll(function () {
-            // Get container scroll position
-            var fromTop = $(this).scrollTop() + topMenuHeight;
+</div>
+<div class="w-full lg:w-4/5 lg:ml-auto text-base md:text-sm text-gray-500 px-4 py-6">
+    <p></p>
+</div>
 
-            // Get id of current scroll item
-            var cur = scrollItems.map(function () {
-                if ($(this).offset().top < fromTop)
-                    return this;
-            });
-            // Get the id of the current element
-            cur = cur[cur.length - 1];
-            var id = cur && cur.length ? cur[0].id : "";
-
-            if (lastId !== id) {
-                lastId = id;
-                // Set/remove active class
-                menuItems
-                    .children().removeClass("text-gray-900 font-bold")
-                    .end().filter("[href='#" + id + "']").children().addClass("text-gray-900 font-bold");
-
-                menuItems
-                    .removeClass("lg:border-blue-700 lg:hover:border-blue-700")
-                    .addClass("lg:hover:border-gray-400")
-                    .filter("[href='#" + id + "']").removeClass("lg:hover:border-gray-400")
-                    .filter("[href='#" + id + "']").addClass("lg:border-blue-700 lg:hover:border-blue-700")
-            }
-        });
-
-    </script>
 </body>
 
 </html>

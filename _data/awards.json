@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Dean's List (Spring 2022) of College of Engineering, KAIST (GPA 4.24/4.3)",
+        "year": 2022
+    },
+
+    {
+        "title": "Creativity Prizem from Thailand Machine Learning for Chemistry Competition 2021 (TMLCC)",
+        "year": 2021,
+        "location": "Online",
+        "desc": "(Team วัยรุ่นยุคใหม่ใส่ใจปัญญาประดิษฐ์) Creativity Prize (out of 76 teams) under to problem \"Prediction of Metal Organic Frameworks' (MOFs) Working Capacity for Carbon Dioxide Absorption Using Machine Learning\" from proposing various MOF representations and building a one-step mini-ML flow to test the performance across variations",
+        "link": "https://devpost.com/software/project-6mw3fgs9j7uo",
+        "link_title": "Project Page (Thai)",
+        "gh_link": "https://github.com/gunsodo/tmlcc2021"
+    },
+    {
+        "title": "Most Human-Centered Award from CS374 (Fall 2021) Design Project",
+        "year": 2021
+    },
+    {
+        "title": "Valedictorian of the Cohort, Kamnoetvidya Science Academy",
+        "year": 2019
+    },
+    {
+        "title": "Champion Team Award - American Regions Mathematics League Local Thailand 2018",
+        "year": 2018
+    },
+    {
+        "title": "Special Diploma, XXVIII Sakharov Readings, Lyceum “Physical-Technical School”, Saint Petersburg, Russia",
+        "year": 2018
+    },
+    {
+        "title": "Second Runner-Up Prize from 2nd KVIS Invitational Science Fair (KVIS-ISF), Rayong, Thailand",
+        "year": 2018
+    },
+    {
+        "title": "Honorable Mention - International Mathematical Modeling Challenge 2018",
+        "year": 2018
+    },
+    {
+        "title": "Student President, Kamnoetvidya Science Academy",
+        "year": 2017
+    }
+]

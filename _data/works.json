@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Reseach Assistant",
+        "company": "Interfaces Lab, Vidyasirimedhi Institute of Science and Technology (VISTEC)",
+        "company_link": "https://www.facebook.com/interfaces.brainvistec",
+        "start_date": "March 2022",
+        "end_date": "Ongoing",
+        "location": "Remote",
+        "desc": "Apply deep learning to extract biosignals and events (e.g. respiratory rate and sleep apnea) from PPG signals under supervision of Prof. Theerawit Wilaiprasitporn.",
+        "media": "interfaces.jpeg"
+    },
+    {
+        "title": "Data Analyst Intern",
+        "company": "Siam Commercial Bank",
+        "company_link": "https://scb.co.th",
+        "start_date": "June 2022",
+        "end_date": "August 2022",
+        "location": "Bangkok, Thailand",
+        "desc": "Join the Credit Risk Data Analytics team to improve the reject inference method applied to the bank's decision engine.",
+        "media": "scb.jpeg"
+    },
+    {
+        "title": "Research Intern",
+        "company": "IBS Data Science Group",
+        "company_link": "https://ibs.re.kr/ds/",
+        "start_date": "January 2022",
+        "end_date": "August 2022",
+        "location": "Daejeon, South Korea",
+        "desc": "Climate downscaling with single-image superresolution technique to predict geospatial information under supervision of Prof. Meeyoung Cha.",
+        "media": "ibs.png"
+    },
+    {
+        "title": "Robotics Engineer Intern",
+        "company": "AI and Robotic Ventures",
+        "company_link": "https://arv.co.th/",
+        "start_date": "January 2022",
+        "end_date": "February 2022",
+        "location": "Bangkok, Thailand",
+        "desc": "Integrate sensors and embedded devices to create an end-to-end hydrographic surveyor to be installed with the unmanned subsea vehicle.",
+        "media": "arv.jpeg"
+    },
+    {
+        "title": "Backend Developer Intern",
+        "company": "True Digital Group",
+        "company_link": "https://www.truedigital.com/",
+        "start_date": "June 2021",
+        "end_date": "June 2021",
+        "location": "Work from Home",
+        "desc": "Qualify through True Academy Program as a backend developer at True Digital Group. Implement PoCs that increase the efficiency of API calls for content management of TrueID application.",
+        "media": "true.jpeg"
+    },
+    {
+        "title": "Research Internship",
+        "company": "BRAIN Lab, Vidyasirimedhi Institute of Science and Technology (VISTEC)",
+        "company_link": "https://brain.vistec.ac.th/",
+        "start_date": "April 2019",
+        "end_date": "February 2021",
+        "location": "Rayong, Thailand",
+        "desc": "Research in the field of machine learning, human-computer interaction, reinforcement learning, and robotics under supervision of Prof. Poramate Manoonpong and Dr. Nat Dilokthanakul.",
+        "media": "vistec.png"
+    },
+    {
+        "title": "Director of Activity",
+        "company": "The White Room Enterprise",
+        "company_link": "https://thewhiteroomcharity.org/twr/",
+        "start_date": "August 2016",
+        "end_date": "Ongoing",
+        "location": "Bangkok, Thailand",
+        "desc": "Work as a part of a social enterprise, organizing science camps, educational workshops and lectures. Both for charity work and profiting purposes.",
+        "media": "twr.png"
+    }
+]
