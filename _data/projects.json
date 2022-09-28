@@ -1,0 +1,46 @@
+[
+    {
+        "title": "TMLCC2021",
+        "subtitle": "Automation ML framework for MOF prediction",
+        "media": "tmlcc2021.png",
+        "code": "https://github.com/gunsodo/tmlcc2021",
+        "site": "https://devpost.com/software/project-6mw3fgs9j7uo",
+        "video": "https://www.youtube.com/watch?v=x5YaEOXvRlA"
+    },
+    {
+        "title": "SENSEI-GA",
+        "subtitle": "Extension of <a class='hover:underline' href='https://www.comp.nus.edu.sg/~gaoxiang/papers/Sensei_ICSE20.pdf' target='_blank' rel='noopener noreferrer'>SENSEI</a>",
+        "media": "sensei.png",
+        "code": "https://github.com/beyaldiz/augmentation"
+    },
+    {
+        "title": "Class Partition GA",
+        "subtitle": "Class partitioning tool using genetic algorithm",
+        "media": "class-partition-ga/result.png",
+        "site": "https://class-partition-ga.vercel.app/",
+        "code": "https://github.com/gunsodo/class-partition-ga"
+    },
+    {
+        "title": "MHPMS",
+        "subtitle": "Construction project management system",
+        "media": "mhpms/dashboard.png"
+    },
+    {
+        "title": "MedicalCatalog",
+        "subtitle": "Medical tools and sets viewer for hospitals",
+        "media": "pasin-cssdcat/edit-set.png"
+    },
+    {
+        "title": "Sew You Later!",
+        "subtitle": "Communication platform between the tailor and customer",
+        "media": "sew-you-later/new-orders.png",
+        "site": "https://sew-you-later.web.app/",
+        "code": "https://github.com/fesiib/sew-you-later",
+        "video": "https://www.youtube.com/watch?v=7hLV9g7hv7Q"
+    },
+    {
+        "title": "yesreport",
+        "subtitle": "Student progress report system for a private school",
+        "media": "yuwapat-report/login.png"
+    }
+]
