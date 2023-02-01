@@ -1,5 +1,9 @@
 [
     {
+        "title": "Summa Cum Laude, KAIST",
+        "year": 2023
+    },
+    {
         "title": "KAIPlus Scholarship Award, KAIST",
         "year": 2022
     },
@@ -8,7 +12,7 @@
         "year": 2022
     },
     {
-        "title": "Creativity Prizem from Thailand Machine Learning for Chemistry Competition 2021 (TMLCC)",
+        "title": "Creativity Prize from Thailand Machine Learning for Chemistry Competition 2021 (TMLCC)",
         "year": 2021,
         "location": "Online",
         "desc": "(Team วัยรุ่นยุคใหม่ใส่ใจปัญญาประดิษฐ์) Creativity Prize (out of 76 teams) under to problem \"Prediction of Metal Organic Frameworks' (MOFs) Working Capacity for Carbon Dioxide Absorption Using Machine Learning\" from proposing various MOF representations and building a one-step mini-ML flow to test the performance across variations",
