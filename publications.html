@@ -36,6 +36,12 @@ layout: base
                     <a class="px-2 py-0.5 text-sm text-blue-100 bg-blue-700 rounded-md hover:bg-blue-800"
                         href="{{ pub.demo }}" target="_blank" rel="noopener noreferrer">Demo</a>
                     {% endif %}
+                    {% if pub.news %}
+                        {% for news in pub.news %}
+                        <a class="px-2 py-0.5 text-sm text-blue-100 bg-blue-700 rounded-md hover:bg-blue-800"
+                            href="{{ news }}" target="_blank" rel="noopener noreferrer">News</a>
+                        {% endfor %}
+                    {% endif %}
                 </div>
             </div>
         </div>

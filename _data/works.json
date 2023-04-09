@@ -1,12 +1,22 @@
 [
     {
+        "title": "Applied Scientist",
+        "company": "Gauss Labs",
+        "company_link": "https://www.gausslabs.ai/",
+        "start_date": "March 2023",
+        "end_date": "Ongoing",
+        "location": "Seoul, South Korea",
+        "desc": "Work with the MLDS team to optimize virtual metrology using machine learning in semiconductor manufacturing.",
+        "media": "gli.jpeg"
+    },
+    {
         "title": "Reseach Assistant",
         "company": "Interfaces Lab, Vidyasirimedhi Institute of Science and Technology (VISTEC)",
         "company_link": "https://www.facebook.com/interfaces.brainvistec",
         "start_date": "March 2022",
         "end_date": "Ongoing",
         "location": "Remote",
-        "desc": "Apply deep learning to extract biosignals and events (e.g. respiratory rate and sleep apnea) from PPG signals under supervision of Prof. Theerawit Wilaiprasitporn.",
+        "desc": "Apply deep learning to extract biosignals and events (e.g. respiratory rate and sleep apnea event) from PPG signals under supervision of Prof. Theerawit Wilaiprasitporn.",
         "media": "interfaces.jpeg"
     },
     {
@@ -16,7 +26,7 @@
         "start_date": "June 2022",
         "end_date": "August 2022",
         "location": "Bangkok, Thailand",
-        "desc": "Join the Credit Risk Data Analytics team to improve the reject inference method applied to the bank's decision engine.",
+        "desc": "Join the Credit Risk Data Analytics team to improve the reject inference method applied to the bank's decision engine using semi-supervised learning.",
         "media": "scb.jpeg"
     },
     {
@@ -64,7 +74,7 @@
         "company": "The White Room Enterprise",
         "company_link": "https://thewhiteroomcharity.org/twr/",
         "start_date": "August 2016",
-        "end_date": "Ongoing",
+        "end_date": "June 2019",
         "location": "Bangkok, Thailand",
         "desc": "Work as a part of a social enterprise, organizing science camps, educational workshops and lectures. Both for charity work and profiting purposes.",
         "media": "twr.png"

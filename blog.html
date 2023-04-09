@@ -1,0 +1,21 @@
+---
+title: Blog
+layout: base
+---
+
+<div
+  class="w-full font-sans p-8 mt-6 mb-12 lg:mt-0 text-gray-900 leading-normal bg-white border border-gray-400 border-rounded">
+  <div id="publications">
+    <span class="border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">Blog</span>
+
+    <p class="mt-6">Coming soon!</p>
+
+    {% for post in site.posts %}
+    <div class="mt-6 md:flex items-center space-x-5">
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    </div>
+    {% endfor %}
+  </div>
+</div>

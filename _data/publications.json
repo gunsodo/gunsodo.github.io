@@ -5,7 +5,8 @@
         "venue": "arXiv",
         "venue_desc": "preprint",
         "media": "rrwavenet.png",
-        "paper": "https://arxiv.org/abs/2208.08672"
+        "paper": "https://arxiv.org/abs/2208.08672",
+        "code": "https://github.com/IoBT-VISTEC/RRWaveNet"
     },
     {
         "title": "Visual Goal Human-Robot Communication Framework with Few-Shot Learning: a Case Study in Robot Waiter System",
@@ -14,7 +15,10 @@
         "venue_desc": "acceptance rate < 20%, impact factor = 11.648",
         "media": "viscom.png",
         "paper": "https://ieeexplore.ieee.org/document/9316982",
-        "demo": "https://www.youtube.com/watch?v=KV9MDkzAEPc"
+        "demo": "https://www.youtube.com/watch?v=KV9MDkzAEPc",
+        "news": [
+            "https://youtu.be/aeoBwviz_hQ?t=91"
+        ]
     },
     {
         "title": "Hydrogen Gas Production from Durian Shell and Sheep Dung",
