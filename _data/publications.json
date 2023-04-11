@@ -2,10 +2,10 @@
     {
         "title": "RRWaveNet: A Compact End-to-End Multi-Scale Residual CNN for Robust PPG Respiratory Rate Estimation",
         "authors": "P. Osathitporn*, G. Sawadwuthikul*, P. Thuwajit, K. Ueafuea, T. Mateepithaktham, N. Kunaseth, T. Choksatchawathi, P. Punyabukkana, E. Mignot, T. Wilaiprasitporn",
-        "venue": "arXiv",
-        "venue_desc": "preprint",
+        "venue": "IEEE Internet of Things Journal",
+        "venue_desc": "impact factor = 10.238",
         "media": "rrwavenet.png",
-        "paper": "https://arxiv.org/abs/2208.08672",
+        "paper": "https://ieeexplore.ieee.org/document/10098530",
         "code": "https://github.com/IoBT-VISTEC/RRWaveNet"
     },
     {
