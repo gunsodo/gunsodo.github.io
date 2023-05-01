@@ -25,8 +25,6 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      GTAG: ${{ env.GTAG }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -34,6 +32,8 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
+        env:
+          GTAG: ${{ env.GTAG }}
         with:
           source: ./
           destination: ./_site
