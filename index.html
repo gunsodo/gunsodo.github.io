@@ -64,23 +64,6 @@ layout: base
                     class="text-blue-700 hover:underline" target="_blank" rel="noopener noreferrer">Gauss Labs</a>
                 next March!
             </li>
-            <li>2022/03: Joined
-                <a href="https://careers.scb.co.th/en/life-at-scb/detail/interview-scb-data-analytics/"
-                    class="text-blue-700 hover:underline" target="_blank" rel="noopener noreferrer">Interfaces</a>
-                lab as a research assistant under supervision of Prof. <a
-                    href="https://scholar.google.com/citations?user=U-L-iGIAAAAJ" class="text-blue-700 hover:underline"
-                    target="_blank" rel="noopener noreferrer">Theerawit Wilaiprasitporn</a>.
-            </li>
-            <li>2022/01:
-                <a href="https://careers.scb.co.th/en/life-at-scb/detail/interview-scb-data-analytics/"
-                    class="text-blue-700 hover:underline" target="_blank" rel="noopener noreferrer">SCB Data Analytics
-                    Team</a>
-                offered me a summer internship position.
-            </li>
-            <li>2021/11: My research work has appeared live on MCOT channel.
-                <a href="https://youtu.be/aeoBwviz_hQ?t=91" class="text-blue-700 hover:underline" target="_blank"
-                    rel="noopener noreferrer">(Link)</a>
-            </li>
         </ol>
     </div>
 
@@ -94,7 +77,7 @@ layout: base
 
         {% for work in site.data.works %}
         <div class="mt-6 md:flex space-x-5">
-            <img class="mx-auto my-auto w-32 md:px-4" src="img/{{ work.media }}">
+            <img class="mx-auto my-auto w-32 md:px-4" src="img/works/{{ work.media }}">
             <div class="font-sans mt-5 md:mt-0">
                 <p class="text-lg font-bold">{{ work.title }}</p>
                 <a href="{{ work.company_link }}" class="text-lg text-blue-700 font-medium hover:underline"
@@ -178,41 +161,6 @@ layout: base
             {% endfor %}
         </ol>
     </div>
-    <!-- <div id="awards">
-        <span class="ml-2 border-4 p-2 border-blue-700 text-xl font-semibold hover:bg-blue-100">
-            Awards</span>
-
-        {% for award in site.data.awards %}
-        <div class="ml-4 mt-6">
-            <p class="text-lg font-bold">{{ award.title }}</p>
-            <p class="text-lg font-medium text-blue-700">{{ award.subtitle }}</p>
-            <ul class="md:flex justify-start items-left my-1 space-y-1 md:space-y-0 md:space-x-5">
-                <li class="mr-3">
-                    <i class="far fa-calendar mr-2"></i>{{ award.year }}
-                </li>
-                <li class="mr-3">
-                    <i class="far fa-map mr-2"></i>{{ award.location }}
-                </li>
-            </ul>
-            <p class="text-base">
-                {{ award.desc }}
-            </p>
-            {% if award.link or award.gh_link %}
-            <div id="links" class="mt-2 space-x-8">
-                {% if award.link %}
-                <a target="_blank" rel="noopener noreferrer" class="hover:text-blue-700" href="{{ award.link }}"><i
-                        class="fas fa-external-link-alt mr-2"></i>{{ award.link_title }}</a>
-                {% endif %}
-
-                {% if award.gh_link %}
-                <a target="_blank" rel="noopener noreferrer" class="hover:text-blue-700" href="{{ award.gh_link }}"><i
-                        class="fab fa-github mr-2"></i>GitHub</a>
-                {% endif %}
-            </div>
-            {% endif %}
-        </div>
-        {% endfor %}
-    </div> -->
 
 </div>
 <div class="w-full lg:w-4/5 lg:ml-auto text-base md:text-sm text-gray-500 px-4 py-6">

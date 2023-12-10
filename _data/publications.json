@@ -1,9 +1,17 @@
 [
     {
+        "title": "An Extended System for External Sensors Data Acquisition and Validation During Conducting Polysomnography",
+        "authors": "T. Choksatchawathi*, T. Kaewlee, G. Sawadwuthikul, B. Chaitusaney, N. Jaimchariyatam, T. Wilaiprasitporn, and T. Sudhawiyangkul",
+        "venue": "2023 IEEE Statistical Signal Processing Workshop (SSP)",
+        "media": "cusleep_integrated_system.png",
+        "paper": "https://ieeexplore.ieee.org/document/10208050"
+    },
+    {
         "title": "Dyadic boundary points based empirical wavelet transform for the elimination of eye movement and eye blink-based ocular artifacts from EEG signals",
         "authors": "S. Dash*, P. Gajbhiye, P. Sawangjai, G. Sawadwuthikul, T. Sudhawiyangkul, R. K. Tripathy, R. B. Pachori",
         "venue": "Biomedical Signal Processing and Control",
-        "paper": "https://www.sciencedirect.com/science/article/abs/pii/S1746809423004299",
+        "media": "dyalic_boundary_eeg.png",
+        "paper": "https://www.sciencedirect.com/science/article/abs/pii/S1746809423004299"
     },
     {
         "title": "RRWaveNet: A Compact End-to-End Multi-Scale Residual CNN for Robust PPG Respiratory Rate Estimation",
