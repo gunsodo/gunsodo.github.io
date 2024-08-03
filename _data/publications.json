@@ -1,5 +1,12 @@
 [
     {
+        "title": "ApSense: Data-driven Algorithm in PPG-based Sleep Apnea Sensing",
+        "authors": "T. Choksatchawathi*, G. Sawadwuthikul*, P. Thuwajit, T. Keawlee, T. Mateepithaktham, S. Saisaard, T. Sudhawiyangkul, B. Chaitusaney, W. Saengmolee, T. Wilaiprasitporn",
+        "venue": "IEEE Internet of Things Journal",
+        "media": "apsens.png",
+        "paper": "https://ieeexplore.ieee.org/document/10609434"
+    },
+    {
         "title": "An Extended System for External Sensors Data Acquisition and Validation During Conducting Polysomnography",
         "authors": "T. Choksatchawathi*, T. Kaewlee, G. Sawadwuthikul, B. Chaitusaney, N. Jaimchariyatam, T. Wilaiprasitporn, and T. Sudhawiyangkul",
         "venue": "2023 IEEE Statistical Signal Processing Workshop (SSP)",
