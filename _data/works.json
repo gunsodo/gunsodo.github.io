@@ -4,7 +4,7 @@
         "company": "Gauss Labs",
         "company_link": "https://www.gausslabs.ai/",
         "start_date": "March 2023",
-        "end_date": "Ongoing",
+        "end_date": "June 2025",
         "location": "Seoul, South Korea",
         "desc": "Work with the MLDS team to optimize virtual metrology using machine learning in semiconductor manufacturing.",
         "media": "gli.jpeg"
@@ -20,7 +20,7 @@
         "media": "interfaces.jpeg"
     },
     {
-        "title": "Data Analyst Intern",
+        "title": "Data Scientist Intern",
         "company": "Siam Commercial Bank",
         "company_link": "https://scb.co.th",
         "start_date": "June 2022",
@@ -30,7 +30,7 @@
         "media": "scb.jpeg"
     },
     {
-        "title": "Research Intern",
+        "title": "Research Assistant",
         "company": "IBS Data Science Group",
         "company_link": "https://ibs.re.kr/ds/",
         "start_date": "January 2022",
@@ -60,7 +60,7 @@
         "media": "true.jpeg"
     },
     {
-        "title": "Research Internship",
+        "title": "Research Assistant",
         "company": "BRAIN Lab, Vidyasirimedhi Institute of Science and Technology (VISTEC)",
         "company_link": "https://brain.vistec.ac.th/",
         "start_date": "April 2019",
